@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - My Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+        <img src="./Images/IMG-20250524-WA0196(1).jpg" class="logo">
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="about.html" class="nav-link active">About</a></li>
+        <li><a href="projects.html" class="nav-link active">Projects</a></li>
+        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <main class="page-content">
+    <section>
+      <h1>Contact Me</h1>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+      <p id="formMessage" class="form-message"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2008 [Onyemali Favour]. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
